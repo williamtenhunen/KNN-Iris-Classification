@@ -41,7 +41,7 @@ def create_iris_pair_plot(save_path="figures/pair_plot.png"):
     pair_plot._legend.set_bbox_to_anchor((0.85, 0.95))
     pair_plot._legend.set_frame_on(True)
     pair_plot._legend.get_frame().set_alpha(0.9)
-    pair_plot._legend.set_title("Species", prop={'size': 10})
+    pair_plot._legend.set_title("Species", prop={'size': 8})
 
     # Adjust plot aesthetics to ensure title and legend visibility
     pair_plot.figure.suptitle("Pair Plot of Iris Dataset Features by Species", y=0.98, fontsize=14)
@@ -53,7 +53,7 @@ def create_iris_pair_plot(save_path="figures/pair_plot.png"):
         os.makedirs(save_dir)
 
     # Save the plot as a PNG before displaying
-    pair_plot.figure.savefig(save_path, dpi=300, bbox_inches="tight")
+    pair_plot.figure.savefig(save_path, dpi=300, bbox_inches="tight", pad_inches=0.3)
     print(f"Pair plot saved to {save_path}")
 
     # Display the pair plot
