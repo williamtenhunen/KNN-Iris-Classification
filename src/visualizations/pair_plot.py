@@ -38,14 +38,14 @@ def create_iris_pair_plot(save_path="figures/pair_plot.png"):
         ax.set_ylabel(ax.get_ylabel(), fontsize=10)
 
     # Reposition and modify legend (to top-right)
-    pair_plot._legend.set_bbox_to_anchor((0.95, 0.95))
+    pair_plot._legend.set_bbox_to_anchor((0.85, 0.95))
     pair_plot._legend.set_frame_on(True)
     pair_plot._legend.get_frame().set_alpha(0.9)
     pair_plot._legend.set_title("Species", prop={'size': 10})
 
     # Adjust plot aesthetics to ensure title and legend visibility
     pair_plot.figure.suptitle("Pair Plot of Iris Dataset Features by Species", y=0.98, fontsize=14)
-    pair_plot.figure.subplots_adjust(top=0.82, right=0.80)
+    pair_plot.figure.subplots_adjust(top=0.82, right=0.75)
 
     # Ensure the 'figures' directory exists
     save_dir = os.path.dirname(save_path)
