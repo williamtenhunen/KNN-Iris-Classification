@@ -7,14 +7,6 @@ from sklearn.datasets import load_iris
 import os
 
 def create_iris_pair_plot(save_path="figures/pair_plot.png"):
-    """
-    Generate and save a pair plot for the Iris dataset, with points colored by species.
-
-    Parameters:
-    - save_path (str): Path to save the pair plot image (default: 'figures/pair_plot.png')
-    Returns:
-    - None: Displays the plot and saves it as a PNG
-    """
     # Close all existing figures to prevent duplicates
     plt.close('all')
 
