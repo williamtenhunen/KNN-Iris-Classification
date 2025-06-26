@@ -6,7 +6,6 @@ This repository contains Python scripts for classifying the Iris dataset using K
 - `src/visualizations/`: Scripts for generating visualizations (e.g., pair plots, violin plots).
 - `src/model/`: Scripts for KNN model training and evaluation.
 - `figures/`: Saved visualization outputs.
-- `data/`: Sample dataset table.
 
 ## Setup
 1. Clone the repository: `git clone https://github.com/<your-username>/KNN-Iris-Classification.git`
