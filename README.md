@@ -3,7 +3,7 @@ This repository contains Python scripts for classifying the Iris dataset using K
 "[KNN in Machine Learning (Project): From Concept to Classification with the Iris Dataset]".
 
 ## Structure
-- `src/visualizations/`: Scripts for generating visualizations (e.g., pair plots, violin plots).
+- `src/visualizations/`: Scripts for generating visualizations (e.g., pair plots, ridge plots).
 - `src/model/`: Scripts for KNN model training and evaluation.
 - `figures/`: Saved visualization outputs.
 
@@ -15,6 +15,9 @@ This repository contains Python scripts for classifying the Iris dataset using K
 ## Visualizations
 - Pair Plot: Shows pairwise feature relationships by species.
   ![Pair Plot](figures/pair_plot.png)
+- Ridge Plot: Provides a unique view of the distribution of each individual feature across the different Iris species.
+
+  ![Ridge Plot](figures/ridge_plot.png)
 
 ## License
 MIT License
