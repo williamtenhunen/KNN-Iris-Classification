@@ -18,6 +18,9 @@ This repository contains Python scripts for classifying the Iris dataset using K
 - Ridge Plot: Provides a unique view of the distribution of each individual feature across the different Iris species.
 
   ![Ridge Plot](figures/ridge_plot.png)
+- Andrews Curves: Transforms each data point into a unique curve, visualizing all four features simultaneously to highlight overall similarity and distinct class clusters.
+
+  ![Andrews Curves](figures/andrews_curves.png)
 
 ## License
 MIT License
