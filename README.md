@@ -1,6 +1,5 @@
 # KNN-Iris-Classification
-This repository contains Python scripts for classifying the Iris dataset using K-Nearest Neighbors (KNN), as described in the Medium article 
-"[KNN in Machine Learning (Project): From Concept to Classification with the Iris Dataset]".
+This repository contains Python scripts for classifying the Iris dataset using K-Nearest Neighbors (KNN), as described in the Medium article "[KNN in Machine Learning (Project): From Concept to Classification with the Iris Dataset](https://medium.com/@williamtenhunen/knn-in-machine-learning-project-from-concept-to-classification-with-the-iris-dataset-f3fb99b350e3)".
 
 ## Structure
 - `src/visualizations/`: Scripts for generating visualizations (e.g., pair plots, ridge plots).
